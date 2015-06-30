@@ -18,7 +18,7 @@ To setup
 NOTE:  Please see the `.ruby-version` file to check which version of ruby this engine should be run upon.
 
 - Clone this git repo to your local machine
-- From the project root run `$ bundle install`
+- From the project root run `$ ./bin/setup`
 - That's it.
 
 To run the tests
