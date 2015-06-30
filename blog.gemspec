@@ -18,4 +18,11 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails', '~> 4.2.1'
   s.add_dependency 'mysql2'
+
+  s.add_development_dependency 'capybara'
+  s.add_development_dependency 'database_cleaner'
+  s.add_development_dependency 'factory_girl_rails'
+  s.add_development_dependency 'poltergeist'
+  s.add_development_dependency 'pry-rails'
+  s.add_development_dependency 'rspec-rails', '~> 3.1.0'
 end
