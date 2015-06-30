@@ -28,5 +28,10 @@ Lint/ShadowingOuterLocalVariable:
   Enabled: false
 AllCops:
   RunRailsCops: true
+  Include:
+    - 'app/**/*.rb'
   Exclude:
-  - 'blog.gemspec'
+    - 'bin/**/*'
+    - 'Gemfile'
+    - 'Rakefile'
+    - 'blog.gemspec'
