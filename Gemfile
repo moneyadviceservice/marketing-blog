@@ -1,3 +1,4 @@
+source 'http://gems.test.mas'
 source 'https://rubygems.org'
 
 # Declare your gem's dependencies in blog.gemspec.
@@ -12,4 +13,3 @@ gemspec
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
-

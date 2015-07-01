@@ -7,6 +7,7 @@ set -e
 
 # Set up Ruby dependencies via Bundler
 bundle install
+bundle exec bowndler install
 
 #Copy over the database details
 cp spec/dummy/config/database.example.yml spec/dummy/config/database.yml
